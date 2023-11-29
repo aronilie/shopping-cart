@@ -49,11 +49,12 @@ The application has been thoroughly tested with Jest and React Testing Library. 
 
 To maintain simplicity and streamline the development process, the application minimally relies on third-party libraries:
 
+- **React**: The core library for building the user interface, providing a declarative and efficient way to design interactive components.
+- **Styled Components**: Used for styling, allowing for efficient and maintainable CSS-in-JS.
+- **Jest and React Testing Library**: For testing purposes, the application utilizes Jest and React Testing Library.
+
 ## Important Note on Requests
 
 Due to CORS (Cross-Origin Resource Sharing) constraints, the application faced limitations in utilizing PATCH requests. Consequently, to address this challenge, PUT requests were employed as an alternative.
 
-- **React**: The core library for building the user interface, providing a declarative and efficient way to design interactive components.
-- **Styled Components**: Used for styling, allowing for efficient and maintainable CSS-in-JS.
-- **Jest and React Testing Library**: For testing purposes, the application utilizes Jest and React Testing Library.
 
